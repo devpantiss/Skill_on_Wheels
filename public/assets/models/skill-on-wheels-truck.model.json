@@ -1,0 +1,8 @@
+{
+  "name": "high-detail-skill-on-wheels-truck",
+  "type": "3d-model-placeholder",
+  "description": "High-detail Eicher-style mobile training unit with LED perimeter lights, AR/VR lab interior, branded panels and open rear training bay.",
+  "recommendedFormats": ["glb", "usdz"],
+  "fallbackAsset": "/assets/images/cinematic-skill-truck.svg",
+  "interactionSpec": ["orbit", "district route hotspots", "open lab cutaway", "night LED mode"]
+}

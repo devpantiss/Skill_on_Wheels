@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial VR simulation environment</title>
+  <desc id="desc">A premium AR/VR training scene blending mining, steel, power and port simulation modules.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050a12"/><stop offset=".58" stop-color="#09233e"/><stop offset="1" stop-color="#11151b"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <path d="M0 680 H1400 V900 H0Z" fill="#05070c"/>
+  <g stroke="#00d4ff" opacity=".25">
+    <path d="M120 700 700 180 1280 700M250 700 700 300 1150 700M380 700 700 410 1020 700"/>
+    <path d="M0 700H1400M120 760H1280M260 820H1140"/>
+  </g>
+  <g transform="translate(190 395)" fill="none" stroke="#00d4ff" stroke-width="8" filter="url(#glow)">
+    <path d="M0 170 H150 V65 H245 V170 H340"/>
+    <path d="M110 65 V10 H292 V65"/>
+    <circle cx="70" cy="185" r="38"/><circle cx="268" cy="185" r="38"/>
+    <path d="M350 160 L500 45 H625 L710 160Z"/>
+    <path d="M525 45 V0 H700 V160"/>
+  </g>
+  <g transform="translate(570 170)" fill="none" stroke="#ff8a00" stroke-width="9" filter="url(#glow)">
+    <path d="M70 460 V130 L170 55 H315 L420 130 V460"/>
+    <path d="M125 170 H365M125 240 H365M125 310 H365"/>
+    <path d="M500 460 V90 H590 V460M460 150H630"/>
+  </g>
+  <g transform="translate(880 398)" fill="none" stroke="#90f8ff" stroke-width="8" filter="url(#glow)">
+    <path d="M0 180 H350"/>
+    <path d="M40 180 V35 H310 V180"/>
+    <path d="M90 35 V0 H260 V35"/>
+    <path d="M140 180 V95 H210 V180"/>
+    <path d="M395 180 H505 V80 L460 35 H395Z"/>
+    <circle cx="430" cy="198" r="34"/>
+  </g>
+  <g transform="translate(515 242)">
+    <circle cx="180" cy="140" r="96" fill="#07101b" stroke="#e9fbff" stroke-width="5"/>
+    <path d="M96 128 H264 C289 128 310 149 310 174 V214 H50 V174 C50 149 71 128 96 128Z" fill="#e9fbff"/>
+    <path d="M112 152 H248 C263 152 275 164 275 179 V198 H85 V179 C85 164 97 152 112 152Z" fill="#111827"/>
+    <circle cx="130" cy="177" r="18" fill="#00d4ff"/><circle cx="230" cy="177" r="18" fill="#ff8a00"/>
+  </g>
+  <g font-family="Inter, Arial" font-weight="700" fill="#eafcff">
+    <text x="120" y="104" font-size="30" fill="#ff8a00">AR/VR SIMULATION CORE</text>
+    <text x="120" y="146" font-size="20" fill="#b8e8ef">Mining · steel · power · shipping · safety</text>
+  </g>
+</svg>

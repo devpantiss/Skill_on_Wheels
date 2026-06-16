@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic Skill on Wheels truck render</title>
+  <desc id="desc">A futuristic blue mobile training truck driving through rural Odisha at sunrise with holographic route overlays.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07101c"/>
+      <stop offset=".52" stop-color="#12455a"/>
+      <stop offset="1" stop-color="#f28a31"/>
+    </linearGradient>
+    <linearGradient id="truck" x1="0" x2="1">
+      <stop offset="0" stop-color="#071a3f"/>
+      <stop offset=".55" stop-color="#0a48a8"/>
+      <stop offset="1" stop-color="#0ee8ff"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".26" cy=".28" r=".35">
+      <stop offset="0" stop-color="#ffe8a8"/>
+      <stop offset=".42" stop-color="#ff9a38" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ff9a38" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 575 C240 500 350 565 520 510 C710 450 820 505 1000 455 C1180 405 1340 430 1600 370 L1600 1000 L0 1000Z" fill="#07131e" opacity=".74"/>
+  <path d="M0 680 C260 610 430 660 650 590 C820 535 1010 570 1215 505 C1375 454 1500 470 1600 420 L1600 1000 L0 1000Z" fill="#0a1823"/>
+  <g opacity=".26" stroke="#aeefff" stroke-width="2">
+    <path d="M70 728 C300 650 480 710 690 615 C860 540 1060 615 1270 510 C1420 435 1500 450 1580 410"/>
+    <path d="M120 770 C335 698 520 755 720 665 C920 575 1060 650 1260 570"/>
+  </g>
+  <g filter="url(#glow)" opacity=".92">
+    <path d="M310 608 C470 520 640 640 840 520 C990 430 1120 500 1290 410" fill="none" stroke="#00d4ff" stroke-width="5" stroke-dasharray="18 18"/>
+    <circle cx="310" cy="608" r="13" fill="#00d4ff"/>
+    <circle cx="840" cy="520" r="13" fill="#00d4ff"/>
+    <circle cx="1290" cy="410" r="13" fill="#ff8a00"/>
+  </g>
+  <g transform="translate(250 515)">
+    <path d="M70 40 L780 40 C840 40 892 78 914 134 L958 246 L1030 270 L1065 335 L10 335 L10 130 C10 78 18 40 70 40Z" fill="#030914" opacity=".75"/>
+    <path d="M105 0 H745 C794 0 834 35 843 83 L875 250 H70 L70 48 C70 21 78 0 105 0Z" fill="url(#truck)"/>
+    <path d="M760 42 H920 C953 42 981 65 989 97 L1031 250 H872Z" fill="#08234c"/>
+    <path d="M804 70 H908 C930 70 947 84 954 104 L985 205 H848Z" fill="#9df3ff" opacity=".3"/>
+    <rect x="105" y="52" width="580" height="156" rx="12" fill="#06111f"/>
+    <text x="135" y="108" fill="#e9fbff" font-family="Space Grotesk, Arial" font-size="54" font-weight="700">SKILL ON WHEELS</text>
+    <text x="138" y="153" fill="#00d4ff" font-family="Inter, Arial" font-size="24" font-weight="700">AI · AR/VR · MOBILE TRAINING UNIT</text>
+    <path d="M120 190 H670" stroke="#ff8a00" stroke-width="7"/>
+    <path d="M130 226 C230 185 300 244 390 204 C485 160 560 225 660 184" fill="none" stroke="#00d4ff" stroke-width="4" opacity=".8"/>
+    <circle cx="190" cy="335" r="76" fill="#03070d"/>
+    <circle cx="190" cy="335" r="42" fill="#1a2534"/>
+    <circle cx="820" cy="335" r="76" fill="#03070d"/>
+    <circle cx="820" cy="335" r="42" fill="#1a2534"/>
+    <path d="M90 250 H1036" stroke="#00d4ff" stroke-width="6" opacity=".72" filter="url(#glow)"/>
+  </g>
+  <g opacity=".65">
+    <rect x="1120" y="130" width="260" height="150" rx="16" fill="#06111f" stroke="#00d4ff"/>
+    <path d="M1160 235 H1340 M1160 205 H1292 M1160 175 H1320" stroke="#00d4ff" stroke-width="6" opacity=".6"/>
+    <text x="1160" y="158" fill="#ff8a00" font-family="Inter, Arial" font-size="18" font-weight="700">LIVE ROUTE</text>
+  </g>
+</svg>

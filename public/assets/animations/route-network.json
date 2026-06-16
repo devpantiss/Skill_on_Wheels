@@ -1,0 +1,8 @@
+{
+  "name": "skill-on-wheels-route-network",
+  "type": "motion-placeholder",
+  "description": "Scroll-triggered glowing Odisha route lines, district markers, data streams and particle pulses.",
+  "visualStyle": ["futuristic", "cinematic", "Odisha-focused", "electric-cyan", "industrial-orange"],
+  "intendedUse": ["hero background", "district map transitions", "fleet route visualization"],
+  "implementation": "CSS keyframes and framer-motion variants in the React site; replace with Lottie/MP4 when final rendered motion is available."
+}

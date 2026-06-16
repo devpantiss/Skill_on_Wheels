@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">Skill on Wheels futuristic icon system</title>
+  <desc id="desc">Custom icon set for AR/VR, AI learning, mobile unit, route network, nutrition and livelihoods.</desc>
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="640" height="160" rx="20" fill="#050a12"/>
+  <g fill="none" stroke="#00d4ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#g)">
+    <path d="M44 66h72c14 0 26 12 26 26v18H18V92c0-14 12-26 26-26Z"/><circle cx="56" cy="92" r="10"/><circle cx="104" cy="92" r="10"/>
+    <rect x="186" y="42" width="88" height="64" rx="20"/><path d="M206 73h48M230 42v-18M214 124h32"/>
+    <path d="M344 34v84M302 76h84M318 50l52 52M370 50l-52 52"/><circle cx="344" cy="76" r="46"/>
+    <path d="M442 104c38-52 82-52 120 0"/><circle cx="456" cy="68" r="13"/><circle cx="502" cy="48" r="13"/><circle cx="548" cy="68" r="13"/>
+  </g>
+  <g fill="none" stroke="#ff8a00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#g)">
+    <path d="M76 32v18M76 116v12M556 118c-24-10-40-28-45-54 30 2 50 20 57 50M506 118c-28-18-34-42-20-72 26 14 38 40 25 72"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Interactive Odisha district route map</title>
+  <desc id="desc">A holographic Odisha map with glowing Skill on Wheels district connections.</desc>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="map" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07366b"/><stop offset=".55" stop-color="#0b1a32"/><stop offset="1" stop-color="#07101a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#050a12"/>
+  <g opacity=".16" stroke="#00d4ff">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M0 640H1200M0 720H1200"/>
+    <path d="M100 0V800M200 0V800M300 0V800M400 0V800M500 0V800M600 0V800M700 0V800M800 0V800M900 0V800M1000 0V800M1100 0V800"/>
+  </g>
+  <path d="M448 92 546 112 627 172 733 191 819 250 904 335 893 440 808 519 701 560 625 650 494 688 393 635 285 621 210 539 245 430 218 344 282 252 354 226Z" fill="url(#map)" stroke="#8fefff" stroke-width="3" filter="url(#glow)"/>
+  <path d="M354 226 448 92 546 112 525 236 627 172 662 290 733 191 704 335 819 250 760 392 904 335 808 519 701 560 625 650 604 495 494 688 475 532 393 635 410 454 285 621 342 390 218 344 354 226Z" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="2"/>
+  <g fill="#00d4ff" stroke="#eaffff" stroke-width="3" filter="url(#glow)">
+    <circle cx="470" cy="250" r="10"/><circle cx="605" cy="300" r="10"/><circle cx="742" cy="330" r="10"/><circle cx="790" cy="468" r="10"/><circle cx="598" cy="520" r="10"/><circle cx="390" cy="440" r="10"/><circle cx="310" cy="520" r="10"/>
+  </g>
+  <path d="M310 520 C370 420 410 380 470 250 S565 220 605 300 696 350 742 330 815 378 790 468 678 545 598 520 486 475 390 440 340 480 310 520Z" fill="none" stroke="#ff8a00" stroke-width="5" stroke-dasharray="16 13" filter="url(#glow)"/>
+  <g font-family="Inter, Arial" font-size="22" fill="#eafcff" font-weight="700">
+    <text x="420" y="224">Keonjhar</text><text x="623" y="274">Angul</text><text x="760" y="306">Cuttack</text><text x="813" y="462">Paradip</text><text x="615" y="558">Ganjam</text><text x="260" y="552">Koraput</text><text x="332" y="415">Kalahandi</text>
+  </g>
+  <rect x="70" y="62" width="280" height="112" rx="16" fill="#071220" stroke="#00d4ff"/>
+  <text x="94" y="105" fill="#ff8a00" font-family="Space Grotesk, Arial" font-size="22" font-weight="700">ODISHA LIVE GRID</text>
+  <text x="94" y="142" fill="#c6f8ff" font-family="Inter, Arial" font-size="18">District route simulation</text>
+</svg>
